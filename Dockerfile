@@ -1,4 +1,2 @@
-FROM busybox:latest
+FROM openpolicyagent/opa:latest
 MAINTAINER pengshengguo <peng_sg@126.com>
-RUN wget https://openpolicyagent.org/downloads/latest/opa_linux_amd64
-
